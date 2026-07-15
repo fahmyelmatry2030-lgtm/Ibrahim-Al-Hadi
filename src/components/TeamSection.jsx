@@ -5,20 +5,26 @@ const TeamSection = () => {
     const team = [
         {
             id: 1,
-            name: 'أحمد محمود',
-            role: 'مؤسس ومحامي نقض',
-            image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80'
+            name: 'إبراهيم الهادي',
+            role: 'مؤسس المكتب ومحامٍ بالنقض',
+            image: '/ibrahim.jpg'
         },
         {
             id: 2,
-            name: 'سارة خالد',
-            role: 'مستشارة قانونية - شركات',
-            image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80'
+            name: 'د. خالد عبد الرحمن',
+            role: 'مستشار قانوني - قضايا الشركات',
+            image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80'
         },
         {
             id: 3,
-            name: 'عمر طارق',
-            role: 'محامي استئناف',
+            name: 'سارة مصطفى',
+            role: 'محامية استئناف - أحوال شخصية',
+            image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80'
+        },
+        {
+            id: 4,
+            name: 'طارق الدسوقي',
+            role: 'خبير التحكيم التجاري',
             image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80'
         }
     ];
@@ -47,6 +53,25 @@ const TeamSection = () => {
                             <div className="team-info">
                                 <h3 className="team-name">{member.name}</h3>
                                 <p className="team-role">{member.role}</p>
+                                <button 
+                                    onClick={() => window.dispatchEvent(new CustomEvent('openBookingModal', { detail: { lawyer: member.name } }))}
+                                    style={{
+                                        marginTop: '10px',
+                                        padding: '8px 16px',
+                                        backgroundColor: 'transparent',
+                                        border: '1px solid var(--primary-gold)',
+                                        color: 'var(--primary-gold)',
+                                        borderRadius: '4px',
+                                        cursor: 'pointer',
+                                        fontWeight: 'bold',
+                                        width: '100%',
+                                        transition: 'all 0.3s'
+                                    }}
+                                    onMouseOver={(e) => { e.target.style.backgroundColor = 'var(--primary-gold)'; e.target.style.color = 'var(--white)'; }}
+                                    onMouseOut={(e) => { e.target.style.backgroundColor = 'transparent'; e.target.style.color = 'var(--primary-gold)'; }}
+                                >
+                                    حجز استشارة مع {member.name.split(' ')[0]}
+                                </button>
                             </div>
                         </div>
                     ))}

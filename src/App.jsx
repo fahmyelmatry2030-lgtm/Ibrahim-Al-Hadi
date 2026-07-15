@@ -13,6 +13,10 @@ import AboutPage from './pages/AboutPage';
 import PracticeAreasPage from './pages/PracticeAreasPage';
 import TeamPage from './pages/TeamPage';
 import ContactPage from './pages/ContactPage';
+import CaseStudiesPage from './pages/CaseStudiesPage';
+import BlogPage from './pages/BlogPage';
+import FAQPage from './pages/FAQPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 
 // Admin Components & Pages
 import AdminLayout from './pages/admin/AdminLayout';
@@ -56,6 +60,10 @@ function App() {
           <Route path="/about" element={<PublicLayout><AboutPage /></PublicLayout>} />
           <Route path="/practice-areas" element={<PublicLayout><PracticeAreasPage /></PublicLayout>} />
           <Route path="/team" element={<PublicLayout><TeamPage /></PublicLayout>} />
+          <Route path="/case-studies" element={<PublicLayout><CaseStudiesPage /></PublicLayout>} />
+          <Route path="/blog" element={<PublicLayout><BlogPage /></PublicLayout>} />
+          <Route path="/faq" element={<PublicLayout><FAQPage /></PublicLayout>} />
+          <Route path="/privacy" element={<PublicLayout><PrivacyPolicyPage /></PublicLayout>} />
           <Route path="/contact" element={<PublicLayout><ContactPage /></PublicLayout>} />
 
           {/* Admin Login */}

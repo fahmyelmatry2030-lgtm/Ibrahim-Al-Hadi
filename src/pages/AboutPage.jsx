@@ -29,7 +29,7 @@ const AboutPage = () => {
     return (
         <div className="page-container">
             <div className="page-header" style={{
-                backgroundImage: 'linear-gradient(rgba(11, 25, 44, 0.8), rgba(11, 25, 44, 0.8)), url(/lawyer.jpg)',
+                backgroundImage: 'linear-gradient(rgba(11, 25, 44, 0.8), rgba(11, 25, 44, 0.8)), url(/ibrahim.jpg)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 padding: '120px 0 60px',
@@ -51,7 +51,7 @@ const AboutPage = () => {
                             <h4 className="subtitle">رسالتنا ورؤيتنا</h4>
                             <h2 className="section-title">نحن هنا لحماية أعمالك وحياتك</h2>
                              <p style={{ marginBottom: '20px', color: 'var(--text-gray)', fontSize: '1.1rem', lineHeight: '1.8' }}>
-                                في مكتب الأستاذ أحمد عزالدين، نؤمن بأن المحاماة ليست مجرد تمثيل أمام القضاء، بل هي فن في التعامل مع المشكلات وتحويلها إلى فرص. يقود المكتب الأستاذ أحمد عزالدين، الحاصل على ماجستير القانون، بخبرة تمتد لأكثر من ١٠ سنوات في القضاء العسكري والمدني.
+                                في مكتب الأستاذ إبراهيم الهادي، نؤمن بأن المحاماة ليست مجرد تمثيل أمام القضاء، بل هي فن في التعامل مع المشكلات وتحويلها إلى فرص. يقود المكتب الأستاذ إبراهيم الهادي، الحاصل على ماجستير القانون، بخبرة تمتد لأكثر من ١٠ سنوات في القضاء العسكري والمدني.
                             </p>
                             <p style={{ color: 'var(--text-gray)', fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '30px' }}>
                                 رسالتنا هي تقديم أفضل الخدمات والاستشارات القانونية بمهنية عالية وشفافية مطلقة، لضمان حماية حقوق عملائنا ومصالحهم. رؤيتنا أن نكون الوجهة القانونية الأولى والموثوقة من خلال الجمع بين الخبرة الأكاديمية العميقة والممارسة العملية المتميزة.
@@ -59,8 +59,8 @@ const AboutPage = () => {
                         </div>
                         <div className="reveal" style={{ transitionDelay: '0.2s' }}>
                             <img
-                                src="/lawyer.jpg"
-                                alt="الأستاذ أحمد عزالدين"
+                                src="/ibrahim.jpg"
+                                alt="الأستاذ إبراهيم الهادي"
                                 className="about-page-img"
                             />
                         </div>
@@ -101,7 +101,7 @@ const AboutPage = () => {
                             <div className="tl-year">2014</div>
                             <div className="tl-content">
                                 <h3>بداية المسيرة المهنية</h3>
-                                <p>بدأ الأستاذ أحمد عزالدين مسيرته القانونية بالتركيز على قضايا القضاء العسكري والمدني.</p>
+                                <p>بدأ الأستاذ إبراهيم الهادي مسيرته القانونية بالتركيز على قضايا القضاء العسكري والمدني.</p>
                             </div>
                         </div>
                         <div className="timeline-item reveal" style={{ transitionDelay: '0.1s' }}>

@@ -4,6 +4,8 @@ import AboutSection from '../components/AboutSection';
 import PracticeAreas from '../components/PracticeAreas';
 import TeamSection from '../components/TeamSection';
 import ContactSection from '../components/ContactSection';
+import PartnersSection from '../components/PartnersSection';
+import TestimonialsSection from '../components/TestimonialsSection';
 
 const Home = () => {
     useEffect(() => {
@@ -24,7 +26,7 @@ const Home = () => {
         const observer = new IntersectionObserver(observerCallback, observerOptions);
 
         const elementsToReveal = document.querySelectorAll(
-            '.section-title, .subtitle, .area-card, .team-card, .about-image, .about-content, .contact-info-side, .contact-form-side'
+            '.section-title, .subtitle, .area-card, .team-card, .about-image, .about-content, .contact-info-side, .contact-form-side, .testimonial-card'
         );
 
         elementsToReveal.forEach(el => {
@@ -41,6 +43,8 @@ const Home = () => {
             <AboutSection />
             <PracticeAreas />
             <TeamSection />
+            <TestimonialsSection />
+            <PartnersSection />
             <ContactSection />
         </>
     );

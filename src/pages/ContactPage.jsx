@@ -81,7 +81,7 @@ const ContactPage = () => {
                         <div style={{ fontSize: '3rem', marginBottom: '20px' }}>⚖️</div>
                         <h2 style={{ fontSize: '2.2rem', color: 'var(--primary-gold)', marginBottom: '16px' }}>احجز استشارتك القانونية</h2>
                         <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.75)', maxWidth: '580px', margin: '0 auto 36px', lineHeight: '1.8' }}>
-                            لا تتردد في التواصل معنا — الاستشارة الأولى مجانية وسيتم الرد عليك في أسرع وقت ممكن من قِبَل الأستاذ أحمد عزالدين شخصياً.
+                            لا تتردد في التواصل معنا — الاستشارة الأولى مجانية وسيتم الرد عليك في أسرع وقت ممكن من قِبَل الأستاذ إبراهيم الهادي شخصياً.
                         </p>
                         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <button
@@ -116,6 +116,23 @@ const ContactPage = () => {
                                 }}
                             >
                                 💬 واتساب مباشر
+                            </a>
+                            <a
+                                href={`https://www.facebook.com/ibrahimelhady455/`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    background: '#1877F2',
+                                    color: 'white',
+                                    padding: '16px 44px',
+                                    borderRadius: '6px',
+                                    fontWeight: '800',
+                                    fontSize: '1.1rem',
+                                    textDecoration: 'none',
+                                    display: 'inline-block'
+                                }}
+                            >
+                                📘 تواصل معنا عبر فيسبوك
                             </a>
                         </div>
                     </div>

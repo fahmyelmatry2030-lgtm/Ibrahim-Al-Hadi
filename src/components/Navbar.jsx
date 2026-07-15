@@ -31,7 +31,7 @@ const Navbar = () => {
                     <Link to="/" className="logo-link">
                         <div className="logo-emblem">⚖</div>
                         <div className="logo-text-group">
-                            <span className="logo-name">أحمد عزالدين</span>
+                            <span className="logo-name">إبراهيم الهادي</span>
                             <span className="logo-tagline">محامٍ ومستشار قانوني</span>
                         </div>
                     </Link>
@@ -40,8 +40,11 @@ const Navbar = () => {
                 <div className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
                     <NavLink to="/" end onClick={() => setMobileMenuOpen(false)}>الرئيسية</NavLink>
                     <NavLink to="/about" onClick={() => setMobileMenuOpen(false)}>من نحن</NavLink>
-                    <NavLink to="/practice-areas" onClick={() => setMobileMenuOpen(false)}>مجالات التخصص</NavLink>
+                    <NavLink to="/practice-areas" onClick={() => setMobileMenuOpen(false)}>الخدمات القانونية</NavLink>
                     <NavLink to="/team" onClick={() => setMobileMenuOpen(false)}>فريق العمل</NavLink>
+                    <NavLink to="/case-studies" onClick={() => setMobileMenuOpen(false)}>القضايا</NavLink>
+                    <NavLink to="/blog" onClick={() => setMobileMenuOpen(false)}>المدونة</NavLink>
+                    <NavLink to="/faq" onClick={() => setMobileMenuOpen(false)}>الأسئلة الشائعة</NavLink>
                     <NavLink to="/contact" onClick={() => setMobileMenuOpen(false)}>تواصل معنا</NavLink>
                     <button
                         className="btn-book-nav"

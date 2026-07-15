@@ -77,13 +77,13 @@
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 15px; /* Reduced gap from 32px to fit more links */
 }
 
 .nav-links a {
     font-family: var(--font-heading);
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 0.95rem; /* Reduced font size to fit */
     color: var(--white);
     position: relative;
 }
@@ -205,7 +205,7 @@
     background-color: var(--white);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) { /* Increased breakpoint to 1200px to collapse sooner */
     .nav-links {
         position: fixed;
         top: 0;
