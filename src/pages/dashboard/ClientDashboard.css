@@ -1,0 +1,180 @@
+.client-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.highlight-card {
+    border-top: 4px solid var(--primary-gold) !important;
+}
+
+/* Progress Tracker */
+.case-progress {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 0;
+}
+
+.case-progress::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    height: 3px;
+    background: #e2e8f0;
+    z-index: 1;
+}
+
+.progress-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 2;
+    flex: 1;
+    text-align: center;
+}
+
+.step-circle {
+    width: 45px;
+    height: 45px;
+    background: white;
+    border: 3px solid #e2e8f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #94a3b8;
+    transition: all 0.3s;
+}
+
+.step-text {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    max-width: 120px;
+}
+
+/* States */
+.progress-step.completed .step-circle {
+    background: var(--primary-gold);
+    border-color: var(--primary-gold);
+    color: white;
+}
+.progress-step.completed .step-text {
+    color: var(--primary-navy);
+    font-weight: 600;
+}
+
+.progress-step.active .step-circle {
+    border-color: var(--primary-gold);
+    color: var(--primary-gold);
+    box-shadow: 0 0 0 4px rgba(201, 169, 110, 0.2);
+}
+.progress-step.active .step-text {
+    color: var(--primary-gold);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .case-progress {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .case-progress::before {
+        top: 20px;
+        bottom: 20px;
+        left: auto;
+        right: 20px;
+        width: 3px;
+        height: auto;
+    }
+    .progress-step {
+        flex-direction: row;
+        text-align: right;
+    }
+}
+
+/* Documents */
+.document-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.doc-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #f1f5f9;
+    border-radius: 8px;
+    background: #f8fafc;
+}
+
+.doc-item.action-needed {
+    background: #fffbeb;
+    border-color: #fef08a;
+}
+
+.doc-icon {
+    font-size: 1.8rem;
+}
+
+.doc-info {
+    flex: 1;
+}
+
+.doc-info h4 {
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+}
+
+.doc-info p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.btn-upload {
+    background: var(--primary-gold);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.text-success { color: #16a34a; }
+.text-warning { color: #d97706; }
+.text-danger { color: #ef4444; }
+
+/* Billing */
+.billing-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.billing-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.billing-divider {
+    height: 1px;
+    background: #e2e8f0;
+    margin: 5px 0;
+}
+
+.billing-row.total {
+    font-weight: bold;
+    font-size: 1.1rem;
+}

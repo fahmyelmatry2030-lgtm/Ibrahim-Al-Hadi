@@ -18,7 +18,14 @@ import BlogPage from './pages/BlogPage';
 import FAQPage from './pages/FAQPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 
-// Admin Components & Pages
+// New Multi-role Dashboard
+import DashboardLayout from './layouts/DashboardLayout';
+import AdminDashboard from './pages/dashboard/AdminDashboard';
+import LawyerDashboard from './pages/dashboard/LawyerDashboard';
+import ClientDashboard from './pages/dashboard/ClientDashboard';
+import MultiRoleLogin from './pages/dashboard/Login';
+
+// Legacy Admin Pages (keeping for reference)
 import AdminLayout from './pages/admin/AdminLayout';
 import DashboardOverview from './pages/admin/DashboardOverview';
 import AppointmentsPage from './pages/admin/AppointmentsPage';
@@ -66,10 +73,20 @@ function App() {
           <Route path="/privacy" element={<PublicLayout><PrivacyPolicyPage /></PublicLayout>} />
           <Route path="/contact" element={<PublicLayout><ContactPage /></PublicLayout>} />
 
-          {/* Admin Login */}
+          {/* Unified Multi-role Login */}
+          <Route path="/login" element={<MultiRoleLogin />} />
+
+          {/* New Multi-role Dashboard System (Phase 3) */}
+          <Route path="/dashboard" element={<DashboardLayout />}>
+            <Route path="admin" element={<AdminDashboard />} />
+            <Route path="lawyer" element={<LawyerDashboard />} />
+            <Route path="client" element={<ClientDashboard />} />
+          </Route>
+
+          {/* Legacy Admin Login */}
           <Route path="/admin/login" element={<LoginPage />} />
 
-          {/* Admin Dashboard Routes (Protected) */}
+          {/* Legacy Admin Dashboard Routes (Protected) */}
           <Route path="/admin" element={
             <ProtectedRoute>
               <AdminLayout />

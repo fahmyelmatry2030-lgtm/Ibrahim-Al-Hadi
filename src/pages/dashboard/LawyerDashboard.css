@@ -1,0 +1,114 @@
+.lawyer-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Reusing dashboard grid and stat styles from AdminDashboard.css globally */
+
+/* Sessions */
+.session-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: all 0.2s;
+}
+
+.session-card:hover {
+    background: #f8fafc;
+}
+
+.session-card.urgent {
+    border-right: 4px solid #ef4444;
+    background: #fef2f2;
+}
+
+.session-date {
+    background: var(--primary-navy);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.1;
+}
+
+.session-date span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.session-date small {
+    font-size: 0.7rem;
+    color: var(--primary-gold);
+}
+
+.session-info h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.05rem;
+    color: var(--primary-navy);
+}
+
+.session-info p {
+    margin: 0 0 8px 0;
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}
+
+.time-badge {
+    background: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--primary-gold);
+    border: 1px solid rgba(201, 169, 110, 0.3);
+}
+
+.session-card.urgent .time-badge {
+    color: #ef4444;
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+/* Todo List */
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.todo-list li:last-child {
+    border-bottom: none;
+}
+
+.todo-list input[type="checkbox"] {
+    margin-top: 5px;
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary-gold);
+}
+
+.todo-list span {
+    font-size: 0.95rem;
+    color: var(--primary-navy);
+}
+
+.todo-list span.completed {
+    text-decoration: line-through;
+    color: #94a3b8;
+}
