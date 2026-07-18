@@ -81,7 +81,7 @@ const ContactPage = () => {
                         <div style={{ fontSize: '3rem', marginBottom: '20px' }}>⚖️</div>
                         <h2 style={{ fontSize: '2.2rem', color: 'var(--primary-gold)', marginBottom: '16px' }}>احجز استشارتك القانونية</h2>
                         <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.75)', maxWidth: '580px', margin: '0 auto 36px', lineHeight: '1.8' }}>
-                            لا تتردد في التواصل معنا — الاستشارة الأولى مجانية وسيتم الرد عليك في أسرع وقت ممكن من قِبَل الأستاذ إبراهيم الهادي شخصياً.
+                            لا تتردد في التواصل معنا — الاستشارة الأولى مجانية وسيتم الرد عليك في أسرع وقت ممكن من قِبَل الأستاذ سيف العمدة السباعي شخصياً.
                         </p>
                         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <button

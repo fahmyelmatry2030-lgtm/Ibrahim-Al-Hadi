@@ -51,7 +51,7 @@ const DashboardLayout = () => {
                 <div className="sidebar-header">
                     <div className="sidebar-logo">
                         <div className="logo-icon">⚖</div>
-                        {sidebarOpen && <h3>مؤسسة إبراهيم الهادي</h3>}
+                        {sidebarOpen && <h3>مؤسسة السباعي</h3>}
                     </div>
                 </div>
 

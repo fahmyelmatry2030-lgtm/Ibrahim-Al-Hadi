@@ -119,7 +119,7 @@ const BookingModal = () => {
                                         <label>المحامي المطلوب *</label>
                                         <select name="lawyer" value={formData.lawyer} onChange={handleChange} required className="form-control">
                                             <option value="">أي محامٍ متاح</option>
-                                            <option value="إبراهيم الهادي">الأستاذ إبراهيم الهادي</option>
+                                            <option value="سيف العمدة السباعي">الأستاذ سيف العمدة السباعي</option>
                                             <option value="د. خالد عبد الرحمن">د. خالد عبد الرحمن</option>
                                             <option value="سارة مصطفى">الأستاذة سارة مصطفى</option>
                                             <option value="طارق الدسوقي">الأستاذ طارق الدسوقي</option>

@@ -19,29 +19,22 @@ const ContactSection = () => {
                             <div className="method-item">
                                 <div className="method-icon">📍</div>
                                 <div>
-                                    <h5>مدينة 6 أكتوبر</h5>
-                                    <p>الحي الأول، المجاورة الثانية، شارع معهد الفنون التطبيقية، عمارة 266</p>
-                                </div>
-                            </div>
-                            <div className="method-item">
-                                <div className="method-icon">📍</div>
-                                <div>
-                                    <h5>الإسكندرية</h5>
-                                    <p>شارع شامبليون، الأزاريطة (أمام كلية الطب مباشرة)</p>
+                                    <h5>جمهورية مصر العربية</h5>
+                                    <p>نخدم عملاءنا في جميع أنحاء مصر</p>
                                 </div>
                             </div>
                             <div className="method-item">
                                 <div className="method-icon">📞</div>
                                 <div>
-                                    <h5>هاتف التواصل وواتساب</h5>
-                                    <p dir="ltr">+20 1012177070</p>
+                                    <h5>للتواصل والاستفسار</h5>
+                                    <p>تواصل معنا عبر صفحتنا على فيسبوك للرد السريع</p>
                                 </div>
                             </div>
                             <div className="method-item">
-                                <div className="method-icon">📧</div>
+                                <div className="method-icon">📘</div>
                                 <div>
-                                    <h5>البريد الإلكتروني</h5>
-                                    <p>mr.ahmedali.lawyeroffice@gmail.com</p>
+                                    <h5>صفحتنا على فيسبوك</h5>
+                                    <p><a href="https://web.facebook.com/people/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D8%B9%D9%8A-%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D9%87-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D9%87-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5%D9%88%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D9%8A%D8%A7-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D9%87/100071430833738/" target="_blank" rel="noreferrer" style={{color: 'var(--primary-gold)', fontWeight: '700'}}>مؤسسة السباعي للمحاماة</a></p>
                                 </div>
                             </div>
                         </div>

@@ -6,7 +6,7 @@ const AdminDashboard = () => {
         <div className="admin-dashboard">
             <div className="dashboard-header">
                 <h2>نظرة عامة على النظام</h2>
-                <p>مرحباً بك في لوحة تحكم مؤسسة إبراهيم الهادي</p>
+                <p>مرحباً بك في لوحة تحكم مؤسسة السباعي للمحاماة</p>
             </div>
 
             {/* Quick Stats */}
@@ -95,7 +95,7 @@ const AdminDashboard = () => {
                                 <div className="time">10:00 ص</div>
                                 <div className="details">
                                     <h4>استشارة: تأسيس شركة</h4>
-                                    <p>مع: أ. إبراهيم الهادي</p>
+                                    <p>مع: أ. سيف السباعي</p>
                                 </div>
                             </div>
                             <div className="appointment-item">

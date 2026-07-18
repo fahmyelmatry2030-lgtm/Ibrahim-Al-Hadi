@@ -5,9 +5,9 @@ const TeamSection = () => {
     const team = [
         {
             id: 1,
-            name: 'إبراهيم الهادي',
-            role: 'مؤسس المكتب ومحامٍ بالنقض',
-            image: '/ibrahim.jpg'
+            name: 'سيف العمدة السباعي',
+            role: 'مؤسس المكتب - متخصص في القضايا الجنائية',
+            image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80'
         },
         {
             id: 2,

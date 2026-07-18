@@ -31,8 +31,8 @@ const Navbar = () => {
                     <Link to="/" className="logo-link">
                         <div className="logo-emblem">⚖</div>
                         <div className="logo-text-group">
-                            <span className="logo-name">إبراهيم الهادي</span>
-                            <span className="logo-tagline">محامٍ ومستشار قانوني</span>
+                            <span className="logo-name">مؤسسة السباعي</span>
+                            <span className="logo-tagline">للمحاماة والاستشارات القانونية</span>
                         </div>
                     </Link>
                 </div>

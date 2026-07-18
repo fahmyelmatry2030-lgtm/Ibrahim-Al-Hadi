@@ -22,7 +22,7 @@ const Login = () => {
             <div className="login-container">
                 <div className="login-header">
                     <div className="login-logo">⚖</div>
-                    <h2>مؤسسة إبراهيم الهادي</h2>
+                    <h2>مؤسسة السباعي</h2>
                     <p>بوابة الدخول للنظام الإداري</p>
                 </div>
                 

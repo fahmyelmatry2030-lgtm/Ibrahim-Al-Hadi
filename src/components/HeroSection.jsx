@@ -17,16 +17,16 @@ const HeroSection = () => {
                     <div className="hero-premium-content">
                         <div className="hero-premium-badge">
                             <span className="pulse-dot"></span>
-                            مؤسسة إبراهيم الهادي للمحاماة والاستشارات القانونية
+                            مؤسسة السباعي للمحاماة والاستشارات القانونية
                         </div>
 
                         <h1 className="hero-premium-title">
-                            الريادة في تقديم 
-                            <span className="gold-text-gradient">الحلول القانونية المتكاملة</span>
+                            تخصص وتميز في 
+                            <span className="gold-text-gradient">القضايا الجنائية والدفاع الرصين</span>
                         </h1>
 
                         <p className="hero-premium-subtitle">
-                            نلتزم بتقديم تمثيل قانوني استثنائي ودفاع رصين لحماية مصالح عملائنا، مستندين إلى خبرات متراكمة واحترافية عالية أمام كافة درجات التقاضي في جمهورية مصر العربية.
+                            نقدم دفاعاً قانونياً متخصصاً ومتميزاً في كافة القضايا الجنائية، بقيادة الأستاذ سيف العمدة السباعي، مستندين إلى خبرات عميقة واحترافية عالية أمام كافة درجات التقاضي في جمهورية مصر العربية.
                         </p>
 
                         <div className="hero-premium-actions">
@@ -36,8 +36,8 @@ const HeroSection = () => {
                             <div className="hero-premium-support">
                                 <div className="support-icon">📞</div>
                                 <div>
-                                    <span className="support-label">دعم قانوني طارئ ٢٤/٧</span>
-                                    <span className="support-number">010 1234 5678</span>
+                                    <span className="support-label">تواصل معنا عبر فيسبوك</span>
+                                    <span className="support-number">مؤسسة السباعي</span>
                                 </div>
                             </div>
                         </div>
