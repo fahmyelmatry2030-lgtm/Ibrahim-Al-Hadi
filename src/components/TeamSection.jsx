@@ -7,7 +7,7 @@ const TeamSection = () => {
             id: 1,
             name: 'سيف العمدة السباعي',
             role: 'مؤسس المكتب - متخصص في القضايا الجنائية',
-            image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80'
+            image: '/saif_al_sibai.jpg'
         },
         {
             id: 2,

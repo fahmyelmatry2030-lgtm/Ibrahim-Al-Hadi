@@ -9,7 +9,7 @@ const AboutSection = () => {
                     <div className="about-image">
                         <div className="image-wrapper">
                             <img
-                                src="/ibrahim.jpg"
+                                src="/saif_al_sibai.jpg"
                                 alt="الأستاذ سيف العمدة السباعي"
                             />
                             <div className="experience-badge">
