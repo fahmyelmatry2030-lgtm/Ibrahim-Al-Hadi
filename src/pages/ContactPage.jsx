@@ -58,15 +58,14 @@ const ContactPage = () => {
                         <div className="reveal contact-info-card" style={{ transitionDelay: '0.2s', backgroundColor: 'var(--white)', padding: '40px', borderRadius: '8px', textAlign: 'center', boxShadow: '0 5px 20px rgba(0,0,0,0.05)', borderBottom: '3px solid var(--primary-gold)' }}>
                             <div style={{ fontSize: '2.5rem', marginBottom: '20px' }}>📞</div>
                             <h3 style={{ fontSize: '1.2rem', color: 'var(--primary-navy)', marginBottom: '10px' }}>هاتف وواتساب</h3>
-                            <p style={{ color: 'var(--text-gray)' }} dir="ltr">+20 1012177070</p>
-                            <p style={{ color: 'var(--text-gray)', marginTop: '6px' }}>mr.ahmedali.lawyeroffice@gmail.com</p>
+                            <p style={{ color: 'var(--text-gray)' }} dir="ltr">+20 1008657085</p>
                         </div>
 
                         <div className="reveal contact-info-card" style={{ transitionDelay: '0.3s', backgroundColor: 'var(--white)', padding: '40px', borderRadius: '8px', textAlign: 'center', boxShadow: '0 5px 20px rgba(0,0,0,0.05)', borderBottom: '3px solid #dc2626' }}>
                             <div style={{ fontSize: '2.5rem', marginBottom: '20px' }}>🚨</div>
                             <h3 style={{ fontSize: '1.2rem', color: '#dc2626', marginBottom: '10px' }}>حالات الطوارئ - الموقوفون</h3>
                             <p style={{ color: 'var(--text-gray)' }}>للحالات الجنائية العاجلة على مدار 24 ساعة</p>
-                            <p style={{ color: '#dc2626', fontWeight: 'bold', marginTop: '6px' }} dir="ltr">+20 1012177070</p>
+                            <p style={{ color: '#dc2626', fontWeight: 'bold', marginTop: '6px' }} dir="ltr">+20 1008657085</p>
                         </div>
                     </div>
 
@@ -101,7 +100,7 @@ const ContactPage = () => {
                                 🔒 احجز موعدك الآن
                             </button>
                             <a
-                                href={`https://wa.me/201012177070`}
+                                href={`https://wa.me/201008657085`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{
@@ -118,7 +117,7 @@ const ContactPage = () => {
                                 💬 واتساب مباشر
                             </a>
                             <a
-                                href={`https://www.facebook.com/ibrahimelhady455/`}
+                                href={`https://web.facebook.com/people/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%D8%B9%D9%8A-%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D9%87-%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D9%87-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5%D9%88%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D9%8A%D8%A7-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D9%87/100071430833738/`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{
