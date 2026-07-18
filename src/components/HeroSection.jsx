@@ -21,7 +21,7 @@ const HeroSection = () => {
                         </div>
 
                         <h1 className="hero-premium-title">
-                            تخصص وتميز في 
+                            <span className="white-title-part">تخصص وتميز في</span>
                             <span className="gold-text-gradient">القضايا الجنائية والدفاع الرصين</span>
                         </h1>
 
